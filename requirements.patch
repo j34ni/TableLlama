@@ -1,0 +1,20 @@
+--- requirements(2).txt 2024-07-25 08:08:10.170564516 +0200
++++ requirements(1).txt 2024-07-25 08:05:13.985239255 +0200
+@@ -2,8 +2,8 @@
+ rouge_score
+ fire
+ openai
+-transformers>=4.28.1
+-torch>=2.0
++transformers==4.37.2
++torch==2.0.1
+ sentencepiece
+ tokenizers>=0.13.3
+ wandb
+@@ -13,4 +13,4 @@
+ peft
+ partial
+ gradio
+-einops
+\ No newline at end of file
++einops
